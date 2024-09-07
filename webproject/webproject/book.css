@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+.bookborder{
+	border: 2px solid #0d1f61;
+	padding: 10px 40px;
+	background:#82898c;
+	width:180px;
+	height:45px;
+	border-radius: 25px;
+	color:whitesmoke;
+	transition: all 0.2s ease;
+}
+.bookborder:hover {
+    opacity: 0.95;
+    background-color: white;
+	color: #0d1f61;
+}
+.checkbuton{
+	border: 2px solid #0d1f61;
+	background:#82898c;
+	width:100px;
+	height:45px;
+	border-radius: 25px;
+	color:whitesmoke;
+	transition: all 0.2s ease;	
+	padding:0px;
+	
+}
+.checkbuton:hover{
+    opacity: 0.95;
+    background-color: white;
+	  color: #0d1f61;
+}
+
+
+.res_card{
+  position: absolute;
+  font-family: arial;
+  right:45px;
+  left:45px;
+  width: auto;
+  border-radius: 20px;
+  height: 68%;
+  top: 20%;
+}
+
+.res_cardd{
+  font-family: arial;
+  margin: 17.5px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 67%;
+  display: inline-block;
+  float: left;
+  background-color: #eaeaea;
+
+}
+.res_cardd:hover{
+  margin: 17.5px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 67%;
+  display: inline-block;
+  float: left;
+  background-color: #DDDDDD;
+}
+.info{
+  text-align: left;
+  margin-left: 20px;
+  margin-right:20px;
+  font-size: 15px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 70%; /* Full width */
+  height: auto; /* Full height */
+  margin-left: 15%;
+  margin-right:15%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #82898c; /* Fallback color */
+  background-color: rgba(0,0,0,0);
+}
+
+/* Modal Content */
+.modal-content {
+  font-size:18px;
+  background-color: #whitesmoke;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  text-align: center;
+  line-height: 250%; 
+  color: #0d1f61;  
+}
+.modaltext{
+	background:whitesmoke;
+	border: 2px solid #0d1f61;
+	width:auto;
+	height:32px;
+	border-radius: 5px;
+	color:#0d1f61;
+	
+}
+.modaltext2{
+	background:whitesmoke;
+	border: 2px solid #0d1f61;
+	border-radius: 5px;
+	color:#0d1f61;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
